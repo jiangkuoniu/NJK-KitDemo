@@ -1,13 +1,13 @@
 //
-//  NJK_Category.h
+//  NJKCategory.h
 //  NJK-Kit
 //
 //  Created by njk on 2020/8/20.
 //  Copyright © 2020 NJK. All rights reserved.
 //
 
-#ifndef NJK_Category_h
-#define NJK_Category_h
+#ifndef NJKCategory_h
+#define NJKCategory_h
 
 #import "UIView+NJKView.h"
 #import "UIButton+NJKButton.h"
@@ -15,4 +15,4 @@
 #import "NSString+NJKString.h"
 #import "UIImage+NJKImage.h"
 
-#endif /* NJK_Category_h */
+#endif /* NJKCategory_h */

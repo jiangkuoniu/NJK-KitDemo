@@ -1,13 +1,13 @@
 //
-//  NJK_Chain.h
+//  NJKChain.h
 //  NJK-Kit
 //
 //  Created by njk on 2020/8/19.
 //  Copyright © 2020 NJK. All rights reserved.
 //
 
-#ifndef NJK_Chain_h
-#define NJK_Chain_h
+#ifndef NJKChain_h
+#define NJKChain_h
 
 #import "UIView+NJKChain.h"
 #import "UILabel+NJKChain.h"
@@ -22,4 +22,4 @@
 #import "UICollectionViewFlowLayout+NJKChain.h"
 #import "UICollectionViewCell+NJKChain.h"
 
-#endif /* NJK_Chain_h */
+#endif /* NJKChain_h */

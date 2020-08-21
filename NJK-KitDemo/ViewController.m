@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#import "NJK_Kit.h"
+#import "NJKKitHeader.h"
 
 @interface ViewController ()
 

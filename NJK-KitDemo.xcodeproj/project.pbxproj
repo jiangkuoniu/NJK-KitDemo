@@ -43,7 +43,7 @@
 		0415F0C024EFA52300302BDA /* UILabel+NJKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NJKLabel.h"; sourceTree = "<group>"; };
 		0415F0C124EFA52300302BDA /* UIImage+NJKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NJKImage.m"; sourceTree = "<group>"; };
 		0415F0C224EFA52300302BDA /* NSString+NJKString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NJKString.h"; sourceTree = "<group>"; };
-		0415F0C324EFA52300302BDA /* NJK_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJK_Category.h; sourceTree = "<group>"; };
+		0415F0C324EFA52300302BDA /* NJKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKCategory.h; sourceTree = "<group>"; };
 		0415F0C424EFA52300302BDA /* UIView+NJKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NJKView.m"; sourceTree = "<group>"; };
 		0415F0C524EFA52300302BDA /* UILabel+NJKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NJKLabel.m"; sourceTree = "<group>"; };
 		0415F0C624EFA52300302BDA /* UIButton+NJKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NJKButton.m"; sourceTree = "<group>"; };
@@ -69,13 +69,13 @@
 		0415F0DB24EFA52300302BDA /* UITableViewCell+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+NJKChain.h"; sourceTree = "<group>"; };
 		0415F0DC24EFA52300302BDA /* UITextField+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+NJKChain.h"; sourceTree = "<group>"; };
 		0415F0DD24EFA52300302BDA /* UIButton+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NJKChain.m"; sourceTree = "<group>"; };
-		0415F0DE24EFA52300302BDA /* NJK_Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJK_Chain.h; sourceTree = "<group>"; };
+		0415F0DE24EFA52300302BDA /* NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKChain.h; sourceTree = "<group>"; };
 		0415F0DF24EFA52300302BDA /* UITableView+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NJKChain.m"; sourceTree = "<group>"; };
 		0415F0E024EFA52300302BDA /* UIScrollView+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+NJKChain.h"; sourceTree = "<group>"; };
 		0415F0E124EFA52300302BDA /* UICollectionViewFlowLayout+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewFlowLayout+NJKChain.m"; sourceTree = "<group>"; };
 		0415F0E224EFA52300302BDA /* UICollectionViewCell+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+NJKChain.m"; sourceTree = "<group>"; };
 		0415F0E324EFA52300302BDA /* UIImageView+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NJKChain.m"; sourceTree = "<group>"; };
-		0415F0E424EFA52300302BDA /* NJK_Kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJK_Kit.h; sourceTree = "<group>"; };
+		0415F0E424EFA52300302BDA /* NJKKitHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKKitHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 			children = (
 				0415F0BE24EFA52300302BDA /* Category */,
 				0415F0CA24EFA52300302BDA /* Chain */,
-				0415F0E424EFA52300302BDA /* NJK_Kit.h */,
+				0415F0E424EFA52300302BDA /* NJKKitHeader.h */,
 			);
 			path = "NJK-Kit";
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 				0415F0C024EFA52300302BDA /* UILabel+NJKLabel.h */,
 				0415F0C124EFA52300302BDA /* UIImage+NJKImage.m */,
 				0415F0C224EFA52300302BDA /* NSString+NJKString.h */,
-				0415F0C324EFA52300302BDA /* NJK_Category.h */,
+				0415F0C324EFA52300302BDA /* NJKCategory.h */,
 				0415F0C424EFA52300302BDA /* UIView+NJKView.m */,
 				0415F0C524EFA52300302BDA /* UILabel+NJKLabel.m */,
 				0415F0C624EFA52300302BDA /* UIButton+NJKButton.m */,
@@ -170,7 +170,7 @@
 				0415F0DB24EFA52300302BDA /* UITableViewCell+NJKChain.h */,
 				0415F0DC24EFA52300302BDA /* UITextField+NJKChain.h */,
 				0415F0DD24EFA52300302BDA /* UIButton+NJKChain.m */,
-				0415F0DE24EFA52300302BDA /* NJK_Chain.h */,
+				0415F0DE24EFA52300302BDA /* NJKChain.h */,
 				0415F0DF24EFA52300302BDA /* UITableView+NJKChain.m */,
 				0415F0E024EFA52300302BDA /* UIScrollView+NJKChain.h */,
 				0415F0E124EFA52300302BDA /* UICollectionViewFlowLayout+NJKChain.m */,
