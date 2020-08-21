@@ -16,15 +16,7 @@ s.platform    = :ios, '9.0'
 
 s.source      = {:git => 'https://github.com/jiangkuoniu/NJK-KitDemo.git', :tag =>"v#{s.version}"}
 
-s.public_header_files = 'NJK-Kit/NJKKitHeader.h'
-
-s.subspec 'Category' do |ss1|
-      ss1.source_files = 'NJK-Kit/Category/*.{h,m}'
-end
-
-s.subspec 'Chain' do |ss2|
-      ss2.source_files = 'NJK-Kit/Chain/*.{h,m}'
-end
+s.public_header_files = 'NJK-Kit/**/*'
 
 s.requires_arc = true
 
