@@ -16,7 +16,7 @@ s.platform    = :ios, '9.0'
 
 s.source      = {:git => 'https://github.com/jiangkuoniu/NJK-KitDemo.git', :tag =>"v#{s.version}"}
 
-s.public_header_files = 'NJK-Kit/**/*'
+s.source_files = 'NJK-Kit/**/*'
 
 s.requires_arc = true
 
