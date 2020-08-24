@@ -1,7 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../NJK-Kit/Classes"
+      name = "Classes">
+      <Group
+         location = "group:Category"
+         name = "Category">
+         <FileRef
+            location = "group:UIButton+NJKButton.h">
+         </FileRef>
+         <FileRef
+            location = "group:UILabel+NJKLabel.h">
+         </FileRef>
+         <FileRef
+            location = "group:UIImage+NJKImage.m">
+         </FileRef>
+         <FileRef
+            location = "group:NSString+NJKString.h">
+         </FileRef>
+         <FileRef
+            location = "group:UIView+NJKView.m">
+         </FileRef>
+         <FileRef
+            location = "group:NJKCategory.h">
+         </FileRef>
+         <FileRef
+            location = "group:UILabel+NJKLabel.m">
+         </FileRef>
+         <FileRef
+            location = "group:UIButton+NJKButton.m">
+         </FileRef>
+         <FileRef
+            location = "group:NSString+NJKString.m">
+         </FileRef>
+         <FileRef
+            location = "group:UIImage+NJKImage.h">
+         </FileRef>
+         <FileRef
+            location = "group:UIView+NJKView.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chain"
+         name = "Chain">
+         <FileRef
+            location = "group:UICollectionView+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UITextView+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UILabel+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UIButton+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UITableViewCell+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UITextField+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UIView+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UIScrollView+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UITableView+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UIImageView+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UICollectionViewFlowLayout+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UICollectionViewCell+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UILabel+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UITextView+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UICollectionView+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UIView+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UITableViewCell+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UITextField+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UIButton+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UITableView+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UIScrollView+NJKChain.h">
+         </FileRef>
+         <FileRef
+            location = "group:UICollectionViewFlowLayout+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UICollectionViewCell+NJKChain.m">
+         </FileRef>
+         <FileRef
+            location = "group:UIImageView+NJKChain.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:NJKKitHeader.h">
+      </FileRef>
+   </Group>
    <FileRef
-      location = "self:NJK-KitDemo.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
