@@ -16,14 +16,14 @@ s.platform    = :ios, '9.0'
 
 s.source      = {:git => 'https://github.com/jiangkuoniu/NJK-KitDemo.git', :tag =>"v#{s.version}"}
 
-s.public_header_files = 'NJK-Kit/Classes/NJKKitHeader.h'
+s.source_files = 'NJK-Kit/NJKKitHeader.h'
 
 s.subspec 'Category' do |category|
-category.source_files = 'NJK-Kit/Classes/Category/*.{h,m}'
+category.source_files = 'NJK-Kit/Category/*.{h,m}'
 end
 
 s.subspec 'Chain' do |chain|
-chain.source_files = 'NJK-Kit/Classes/Chain/*.{h,m}'
+chain.source_files = 'NJK-Kit/Chain/*.{h,m}'
 end
 
 s.requires_arc = true
