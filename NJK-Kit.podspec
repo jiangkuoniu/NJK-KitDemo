@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.name        = 'NJK-Kit'
 
-s.version      = '0.0.1'
+s.version      = '0.0.2'
 
 s.summary      = 'UIKit_Category'
 
@@ -16,7 +16,18 @@ s.platform    = :ios, '9.0'
 
 s.source      = {:git => 'https://github.com/jiangkuoniu/NJK-KitDemo.git', :tag =>"v#{s.version}"}
 
-s.source_files = 'NJK-Kit/**/*'
+s.source_files = 'NJK-Kit/Classes/NJKKitHeader.h'
+s.public_header_files = 'NJK-Kit/Classes/NJKKitHeader.h'
+
+s.subspec 'Category' do |category|
+category.source_files = 'NJK-Kit/Classes/Category/**/*'
+category.public_header_files = 'NJK-Kit/Classes/Category/NJKCategory.h'
+end
+
+s.subspec 'Chain' do |chain|
+chain.source_files = 'NJK-Kit/Classes/Chain/**/*'
+chain.public_header_files = 'NJK-Kit/Classes/Chain/NJKChain.h'
+end
 
 s.requires_arc = true
 
