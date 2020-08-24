@@ -11,6 +11,23 @@
 		0415F0AC24EFA44600302BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F0AB24EFA44600302BDA /* ViewController.m */; };
 		0415F0B124EFA44D00302BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415F0B024EFA44D00302BDA /* Assets.xcassets */; };
 		0415F0B724EFA44D00302BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F0B624EFA44D00302BDA /* main.m */; };
+		0415F15E24F38BB300302BDA /* UIImage+NJKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F13A24F38BB300302BDA /* UIImage+NJKImage.m */; };
+		0415F15F24F38BB300302BDA /* UIView+NJKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F13C24F38BB300302BDA /* UIView+NJKView.m */; };
+		0415F16024F38BB300302BDA /* UILabel+NJKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F13E24F38BB300302BDA /* UILabel+NJKLabel.m */; };
+		0415F16124F38BB300302BDA /* UIButton+NJKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F13F24F38BB300302BDA /* UIButton+NJKButton.m */; };
+		0415F16224F38BB300302BDA /* NSString+NJKString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F14024F38BB300302BDA /* NSString+NJKString.m */; };
+		0415F16324F38BB300302BDA /* UITableViewCell+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F14824F38BB300302BDA /* UITableViewCell+NJKChain.m */; };
+		0415F16424F38BB300302BDA /* UITextField+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F14924F38BB300302BDA /* UITextField+NJKChain.m */; };
+		0415F16524F38BB300302BDA /* UIScrollView+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F14B24F38BB300302BDA /* UIScrollView+NJKChain.m */; };
+		0415F16624F38BB300302BDA /* UILabel+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F15124F38BB300302BDA /* UILabel+NJKChain.m */; };
+		0415F16724F38BB300302BDA /* UITextView+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F15224F38BB300302BDA /* UITextView+NJKChain.m */; };
+		0415F16824F38BB300302BDA /* UICollectionView+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F15324F38BB300302BDA /* UICollectionView+NJKChain.m */; };
+		0415F16924F38BB300302BDA /* UIView+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F15424F38BB300302BDA /* UIView+NJKChain.m */; };
+		0415F16A24F38BB300302BDA /* UIButton+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F15724F38BB300302BDA /* UIButton+NJKChain.m */; };
+		0415F16B24F38BB300302BDA /* UITableView+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F15824F38BB300302BDA /* UITableView+NJKChain.m */; };
+		0415F16C24F38BB300302BDA /* UICollectionViewFlowLayout+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F15A24F38BB300302BDA /* UICollectionViewFlowLayout+NJKChain.m */; };
+		0415F16D24F38BB300302BDA /* UICollectionViewCell+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F15B24F38BB300302BDA /* UICollectionViewCell+NJKChain.m */; };
+		0415F16E24F38BB300302BDA /* UIImageView+NJKChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415F15C24F38BB300302BDA /* UIImageView+NJKChain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +39,43 @@
 		0415F0B024EFA44D00302BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0415F0B524EFA44D00302BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0415F0B624EFA44D00302BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0415F13824F38BB300302BDA /* UIButton+NJKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NJKButton.h"; sourceTree = "<group>"; };
+		0415F13924F38BB300302BDA /* UILabel+NJKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NJKLabel.h"; sourceTree = "<group>"; };
+		0415F13A24F38BB300302BDA /* UIImage+NJKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NJKImage.m"; sourceTree = "<group>"; };
+		0415F13B24F38BB300302BDA /* NSString+NJKString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NJKString.h"; sourceTree = "<group>"; };
+		0415F13C24F38BB300302BDA /* UIView+NJKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NJKView.m"; sourceTree = "<group>"; };
+		0415F13D24F38BB300302BDA /* NJKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKCategory.h; sourceTree = "<group>"; };
+		0415F13E24F38BB300302BDA /* UILabel+NJKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NJKLabel.m"; sourceTree = "<group>"; };
+		0415F13F24F38BB300302BDA /* UIButton+NJKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NJKButton.m"; sourceTree = "<group>"; };
+		0415F14024F38BB300302BDA /* NSString+NJKString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NJKString.m"; sourceTree = "<group>"; };
+		0415F14124F38BB300302BDA /* UIImage+NJKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NJKImage.h"; sourceTree = "<group>"; };
+		0415F14224F38BB300302BDA /* UIView+NJKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NJKView.h"; sourceTree = "<group>"; };
+		0415F14424F38BB300302BDA /* UICollectionView+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+NJKChain.h"; sourceTree = "<group>"; };
+		0415F14524F38BB300302BDA /* UITextView+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+NJKChain.h"; sourceTree = "<group>"; };
+		0415F14624F38BB300302BDA /* UILabel+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NJKChain.h"; sourceTree = "<group>"; };
+		0415F14724F38BB300302BDA /* UIButton+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NJKChain.h"; sourceTree = "<group>"; };
+		0415F14824F38BB300302BDA /* UITableViewCell+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+NJKChain.m"; sourceTree = "<group>"; };
+		0415F14924F38BB300302BDA /* UITextField+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+NJKChain.m"; sourceTree = "<group>"; };
+		0415F14A24F38BB300302BDA /* UIView+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NJKChain.h"; sourceTree = "<group>"; };
+		0415F14B24F38BB300302BDA /* UIScrollView+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+NJKChain.m"; sourceTree = "<group>"; };
+		0415F14C24F38BB300302BDA /* NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKChain.h; sourceTree = "<group>"; };
+		0415F14D24F38BB300302BDA /* UITableView+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NJKChain.h"; sourceTree = "<group>"; };
+		0415F14E24F38BB300302BDA /* UIImageView+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NJKChain.h"; sourceTree = "<group>"; };
+		0415F14F24F38BB300302BDA /* UICollectionViewFlowLayout+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewFlowLayout+NJKChain.h"; sourceTree = "<group>"; };
+		0415F15024F38BB300302BDA /* UICollectionViewCell+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+NJKChain.h"; sourceTree = "<group>"; };
+		0415F15124F38BB300302BDA /* UILabel+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NJKChain.m"; sourceTree = "<group>"; };
+		0415F15224F38BB300302BDA /* UITextView+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+NJKChain.m"; sourceTree = "<group>"; };
+		0415F15324F38BB300302BDA /* UICollectionView+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+NJKChain.m"; sourceTree = "<group>"; };
+		0415F15424F38BB300302BDA /* UIView+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NJKChain.m"; sourceTree = "<group>"; };
+		0415F15524F38BB300302BDA /* UITableViewCell+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+NJKChain.h"; sourceTree = "<group>"; };
+		0415F15624F38BB300302BDA /* UITextField+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+NJKChain.h"; sourceTree = "<group>"; };
+		0415F15724F38BB300302BDA /* UIButton+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NJKChain.m"; sourceTree = "<group>"; };
+		0415F15824F38BB300302BDA /* UITableView+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NJKChain.m"; sourceTree = "<group>"; };
+		0415F15924F38BB300302BDA /* UIScrollView+NJKChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+NJKChain.h"; sourceTree = "<group>"; };
+		0415F15A24F38BB300302BDA /* UICollectionViewFlowLayout+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewFlowLayout+NJKChain.m"; sourceTree = "<group>"; };
+		0415F15B24F38BB300302BDA /* UICollectionViewCell+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+NJKChain.m"; sourceTree = "<group>"; };
+		0415F15C24F38BB300302BDA /* UIImageView+NJKChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NJKChain.m"; sourceTree = "<group>"; };
+		0415F15D24F38BB300302BDA /* NJKKitHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKKitHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +123,69 @@
 		0415F0BD24EFA52300302BDA /* NJK-Kit */ = {
 			isa = PBXGroup;
 			children = (
+				0415F13624F38BB300302BDA /* Classes */,
 			);
 			path = "NJK-Kit";
+			sourceTree = "<group>";
+		};
+		0415F13624F38BB300302BDA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0415F13724F38BB300302BDA /* Category */,
+				0415F14324F38BB300302BDA /* Chain */,
+				0415F15D24F38BB300302BDA /* NJKKitHeader.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0415F13724F38BB300302BDA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0415F13824F38BB300302BDA /* UIButton+NJKButton.h */,
+				0415F13924F38BB300302BDA /* UILabel+NJKLabel.h */,
+				0415F13A24F38BB300302BDA /* UIImage+NJKImage.m */,
+				0415F13B24F38BB300302BDA /* NSString+NJKString.h */,
+				0415F13C24F38BB300302BDA /* UIView+NJKView.m */,
+				0415F13D24F38BB300302BDA /* NJKCategory.h */,
+				0415F13E24F38BB300302BDA /* UILabel+NJKLabel.m */,
+				0415F13F24F38BB300302BDA /* UIButton+NJKButton.m */,
+				0415F14024F38BB300302BDA /* NSString+NJKString.m */,
+				0415F14124F38BB300302BDA /* UIImage+NJKImage.h */,
+				0415F14224F38BB300302BDA /* UIView+NJKView.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0415F14324F38BB300302BDA /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				0415F14424F38BB300302BDA /* UICollectionView+NJKChain.h */,
+				0415F14524F38BB300302BDA /* UITextView+NJKChain.h */,
+				0415F14624F38BB300302BDA /* UILabel+NJKChain.h */,
+				0415F14724F38BB300302BDA /* UIButton+NJKChain.h */,
+				0415F14824F38BB300302BDA /* UITableViewCell+NJKChain.m */,
+				0415F14924F38BB300302BDA /* UITextField+NJKChain.m */,
+				0415F14A24F38BB300302BDA /* UIView+NJKChain.h */,
+				0415F14B24F38BB300302BDA /* UIScrollView+NJKChain.m */,
+				0415F14C24F38BB300302BDA /* NJKChain.h */,
+				0415F14D24F38BB300302BDA /* UITableView+NJKChain.h */,
+				0415F14E24F38BB300302BDA /* UIImageView+NJKChain.h */,
+				0415F14F24F38BB300302BDA /* UICollectionViewFlowLayout+NJKChain.h */,
+				0415F15024F38BB300302BDA /* UICollectionViewCell+NJKChain.h */,
+				0415F15124F38BB300302BDA /* UILabel+NJKChain.m */,
+				0415F15224F38BB300302BDA /* UITextView+NJKChain.m */,
+				0415F15324F38BB300302BDA /* UICollectionView+NJKChain.m */,
+				0415F15424F38BB300302BDA /* UIView+NJKChain.m */,
+				0415F15524F38BB300302BDA /* UITableViewCell+NJKChain.h */,
+				0415F15624F38BB300302BDA /* UITextField+NJKChain.h */,
+				0415F15724F38BB300302BDA /* UIButton+NJKChain.m */,
+				0415F15824F38BB300302BDA /* UITableView+NJKChain.m */,
+				0415F15924F38BB300302BDA /* UIScrollView+NJKChain.h */,
+				0415F15A24F38BB300302BDA /* UICollectionViewFlowLayout+NJKChain.m */,
+				0415F15B24F38BB300302BDA /* UICollectionViewCell+NJKChain.m */,
+				0415F15C24F38BB300302BDA /* UIImageView+NJKChain.m */,
+			);
+			path = Chain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +256,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0415F15F24F38BB300302BDA /* UIView+NJKView.m in Sources */,
 				0415F0AC24EFA44600302BDA /* ViewController.m in Sources */,
+				0415F16524F38BB300302BDA /* UIScrollView+NJKChain.m in Sources */,
 				0415F0A624EFA44600302BDA /* AppDelegate.m in Sources */,
+				0415F16124F38BB300302BDA /* UIButton+NJKButton.m in Sources */,
+				0415F16224F38BB300302BDA /* NSString+NJKString.m in Sources */,
+				0415F16024F38BB300302BDA /* UILabel+NJKLabel.m in Sources */,
 				0415F0B724EFA44D00302BDA /* main.m in Sources */,
+				0415F16924F38BB300302BDA /* UIView+NJKChain.m in Sources */,
+				0415F16A24F38BB300302BDA /* UIButton+NJKChain.m in Sources */,
+				0415F16B24F38BB300302BDA /* UITableView+NJKChain.m in Sources */,
+				0415F16824F38BB300302BDA /* UICollectionView+NJKChain.m in Sources */,
+				0415F16C24F38BB300302BDA /* UICollectionViewFlowLayout+NJKChain.m in Sources */,
+				0415F16624F38BB300302BDA /* UILabel+NJKChain.m in Sources */,
+				0415F16424F38BB300302BDA /* UITextField+NJKChain.m in Sources */,
+				0415F15E24F38BB300302BDA /* UIImage+NJKImage.m in Sources */,
+				0415F16724F38BB300302BDA /* UITextView+NJKChain.m in Sources */,
+				0415F16324F38BB300302BDA /* UITableViewCell+NJKChain.m in Sources */,
+				0415F16E24F38BB300302BDA /* UIImageView+NJKChain.m in Sources */,
+				0415F16D24F38BB300302BDA /* UICollectionViewCell+NJKChain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
