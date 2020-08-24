@@ -20,12 +20,12 @@ s.source_files = 'NJK-Kit/Classes/NJKKitHeader.h'
 s.public_header_files = 'NJK-Kit/Classes/NJKKitHeader.h'
 
 s.subspec 'Category' do |category|
-category.source_files = 'NJK-Kit/Classes/Category/**/*'
+category.source_files = 'NJK-Kit/Classes/Category/*'
 category.public_header_files = 'NJK-Kit/Classes/Category/NJKCategory.h'
 end
 
 s.subspec 'Chain' do |chain|
-chain.source_files = 'NJK-Kit/Classes/Chain/**/*'
+chain.source_files = 'NJK-Kit/Classes/Chain/*'
 chain.public_header_files = 'NJK-Kit/Classes/Chain/NJKChain.h'
 end
 
