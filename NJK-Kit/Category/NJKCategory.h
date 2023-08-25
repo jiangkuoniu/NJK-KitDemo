@@ -14,5 +14,6 @@
 #import "UILabel+NJKLabel.h"
 #import "NSString+NJKString.h"
 #import "UIImage+NJKImage.h"
+#import "UITextField+NJKTextField.h"
 
 #endif /* NJKCategory_h */

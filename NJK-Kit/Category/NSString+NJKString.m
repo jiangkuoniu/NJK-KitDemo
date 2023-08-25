@@ -12,6 +12,49 @@
 
 @implementation NSString (NJKString)
 
+// 是否为有效字符串
+- (BOOL)yx_isValidString{
+    if (nil == self
+        || ![self isKindOfClass:[NSString class]]
+        || [self yx_stringByTrimmingCharacters].length <= 0) {
+        return NO;
+    }
+    return YES;
+}
+
+// 安全字符串
+- (NSString *)yx_safeString{
+    if ([self yx_isValidString]) {
+        return self;
+    }
+    return @"";
+}
+
+// 去除字符串两端的空格及换行
+- (NSString *)yx_stringByTrimmingCharacters{
+    NSString *string = [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    string = [string stringByTrimmingCharactersInSet:[NSCharacterSet controlCharacterSet]];
+    return string;
+}
+
+// 去掉两端空白，并合并中间多余空白
+- (NSString *)yx_stringByTrimmingExtraSpaces{
+    NSArray *array = [self componentsSeparatedByString:@" "];
+    NSMutableArray *marray = [NSMutableArray new];
+    for (NSString *stringOne in array) {
+        //删除字符串中的所有空格
+        NSString *zufuchuan = [[stringOne stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
+        if (zufuchuan.length != 0) {
+            [marray addObject:stringOne];
+        }
+    }
+
+    NSString *mString = [marray componentsJoinedByString:@" "];
+    //去除 字符串两端的空格 和回车
+    mString = [mString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet ]];
+    return mString;
+}
+
 //进行MD5加密
 - (NSString *)stringFromMD5{
     
@@ -28,6 +71,36 @@
         [outputString appendFormat:@"%02x",outputBuffer[count]];
     }
     return outputString;
+}
+
+//eg:@"12.34"=>@"12.34" @"12.00"=>@"12"
+- (NSString *)yx_formatInteger{
+    if ([self floatValue] == ceilf([self floatValue]) && [self floatValue] == floorf([self floatValue])) {
+        return [NSString stringWithFormat:@"%d",[self intValue]];
+    }
+    return self;
+}
+
+// 转分数 清除小数点后没用的0，最多保留两位小数
+- (NSString *)yx_formatScoreString{
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    formatter.numberStyle = NSNumberFormatterDecimalStyle;
+    formatter.maximumFractionDigits = 2;
+    NSNumber *number = [NSNumber numberWithDouble:self.doubleValue];
+    NSString *scoreString = [formatter stringFromNumber:number];
+    return scoreString;
+}
+
+// url字符串编码
+- (NSString *)yx_urlEncodeString{
+    NSString *encodeStr = [self stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    return encodeStr;
+}
+
+// url字符串解码
+- (NSString *)yx_urlDecodeString{
+    NSString *decodeStr = [self stringByRemovingPercentEncoding];
+    return decodeStr;
 }
 
 //判断手机号码是否合法

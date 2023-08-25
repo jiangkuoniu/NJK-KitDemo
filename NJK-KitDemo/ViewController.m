@@ -31,6 +31,12 @@
     redView.njk_backgroundColor([UIColor redColor]);
     [redView viewShadowPathWithColor:[UIColor blueColor] shadowPathType:LeShadowPathAround shadowOpacity:10 shadowRadius:100 shadowPathWidth:100];
     [self.view addSubview:redView];
+
+    UITextField *TF = (UITextField *)UITextField.new.njk_frame(CGRectMake(100, 100, ([UIScreen mainScreen].bounds.size.width)-200, 30)).njk_backgroundColor(UIColor.yellowColor)
+    ;
+    TF.needAccessoryView = YES;
+    [self.view addSubview:TF];
+    TF.maxInputInteger = 10;
 }
 
 @end
